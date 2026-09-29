@@ -71,7 +71,7 @@ st.markdown("""
 # DATA PATH
 # ============================================================
 
-DATA_PATH = "data/processed"
+DATA_PATH = Path("data/processed")
 
 REQUIRED_FILES = {
     "match_summary": "match_summary.csv",
